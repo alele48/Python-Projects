@@ -5,6 +5,11 @@ import os
 import time
 import re
 
+"""
+The following program utilizes the openpyxl module to
+automate excel staff payroll.
+"""
+
 def excel_file(ws):
 
     while True:
@@ -126,11 +131,7 @@ def load_work():
                     time.sleep(1)
             break
 
-        #for i in range(len(res)):
-        #    if r.endswith("xlsx"):
-        #        print(r.strip("xlsx"))
-        #        break
-
+# main menu loops over the program
 def main():
     while True:
         select = input("Press 1 to create new file, 2 to load file, q to quit: ").upper()
