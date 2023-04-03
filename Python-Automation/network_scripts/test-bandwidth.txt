@@ -1,0 +1,68 @@
+Interface 0/0/0
+
+Date: 2023-03-24 09:28
+Input Rate: 16.85 MB
+Output Rate: 85.86 MB
+
+Interface 0/0/1
+
+Date: 2023-03-24 09:28
+Input Rate: 342.05 MB
+Output Rate: 47.19 MB
+
+Interface 0/0/2
+Date: 2023-03-24 09:28
+Input Rate: 30.34 MB
+Output Rate: 256.21 MB
+
+Interface 0/0/0
+
+Date: 2023-03-24 11:28
+Input Rate: 10.93 MB
+Output Rate: 74.37 MB
+
+Interface 0/0/1
+
+Date: 2023-03-24 11:28
+Input Rate: 370.97 MB
+Output Rate: 33.01 MB
+
+Interface 0/0/2
+Date: 2023-03-24 11:28
+Input Rate: 22.09 MB
+Output Rate: 296.57 MB
+
+Interface 0/0/0
+
+Date: 2023-03-24 13:28
+Input Rate: 13.08 MB
+Output Rate: 83.67 MB
+
+Interface 0/0/1
+
+Date: 2023-03-24 13:28
+Input Rate: 297.05 MB
+Output Rate: 39.48 MB
+
+Interface 0/0/2
+Date: 2023-03-24 13:28
+Input Rate: 26.42 MB
+Output Rate: 213.37 MB
+
+Interface 0/0/0
+
+Date: 2023-03-24 15:28
+Input Rate: 13.23 MB
+Output Rate: 139.63 MB
+
+Interface 0/0/1
+
+Date: 2023-03-24 15:28
+Input Rate: 381.7 MB
+Output Rate: 36.93 MB
+
+Interface 0/0/2
+Date: 2023-03-24 15:28
+Input Rate: 23.71 MB
+Output Rate: 242.02 MB
+
