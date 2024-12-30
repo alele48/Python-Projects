@@ -15,17 +15,19 @@ def convert_size(size_bytes):
    return "%s %s" % (s, size_name[i])
 
 run = True
-
+device_type = input("Enter device type: ")
+host = input("Enter host: ")
+username = input("Enter username: ")
+password = input("Enter Password: ")
+port = int(input("Enter port: "))
 
 cisco = {
-    'device_type': 'cisco_ios',
-    'host':   '192.168.0.10',
-    'username': 'netadmin',
-    'password': '52RedRight!',
-    'port' : 22,
+    'device_type': device_type,
+    'host':   host,
+    'username': username,
+    'password': password,
+    'port' : port,
     }
-
-
 
 minute = 60
 hour = 60 * 60
