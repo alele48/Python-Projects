@@ -12,12 +12,18 @@ run = True
 minute = 60
 hour = minute * 60 
 # redhat credentials
+device_type = input("Enter device type: ")
+host = input("Enter host: ")
+username = input("Enter username: ")
+password = input("Enter Password: ")
+port = int(input("Enter port: "))
+file = input("Enter file location: ")
 redhat = {
-    'device_type':'linux',
-    'host':'192.168.100.20',
-    'username':'netadmin',
-    'password':'Pa$$word@2022',
-    'port':22
+    'device_type':device_type,
+    'host':host,
+    'username':username,
+    'password':password,
+    'port':port
     }
 
 # checks for keyboard interruptions, whether a user presses ctrl + c
@@ -25,11 +31,11 @@ try:
     while run:
         SESSION = paramiko.SSHClient()
         SESSION.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        SESSION.connect("192.168.100.20",port=22, username="netadmin", password="Pa$$word@2022",
+        SESSION.connect(host,port=port, username=username, password=password,
                         allow_agent=False, look_for_keys=False)
         # starts an interactive shell session on the SSH server
         SESSION.invoke_shell()
-        f = open('//192.168.50.202/IT Department/Network Tech/listCMI.txt',"r")
+        f = open(file,"r")
         t = time.ctime()
         for ip in f:
             stdin, stdout, stderr = SESSION.exec_command("ping -c 8 "+ip)
